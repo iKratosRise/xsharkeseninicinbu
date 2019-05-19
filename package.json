@@ -1,0 +1,26 @@
+{
+  "name": "botp",
+  "version": "1.0.0",
+  "description": "AhmetEsad tarafından yapılmış olan bir bot paneli!",
+  "main": "panel.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "AhmetEsad",
+    "bot",
+    "panel",
+    "discord"
+  ],
+  "author": "AhmetEsad",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "discord.js": "^11.4.2"
+  },
+  "dependencies": {
+    "electron": "^3.0.10",
+    "discord.js": "^11.4.2"
+  }
+}
